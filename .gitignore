@@ -1,0 +1,5 @@
+# Ignore all hidden directories (starting with .)
+.*/
+
+# Ignore the build folder
+bin/
