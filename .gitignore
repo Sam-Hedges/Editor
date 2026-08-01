@@ -3,3 +3,5 @@
 
 # Ignore the build folder
 bin/
+
+*.10x
