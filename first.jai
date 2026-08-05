@@ -20,6 +20,7 @@ build :: () {
     target_options.output_executable_name = "Editor";
     target_options.output_path = "bin/";
     target_options.backend = .X64;
+	target_options.text_output_flags &= ~.OUTPUT_LINK_LINE;
     set_build_options(target_options, w);
 
     compiler_begin_intercept(w);
