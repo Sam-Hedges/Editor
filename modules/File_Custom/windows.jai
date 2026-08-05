@@ -41,10 +41,6 @@ os_check_directory_exists :: (path: string) -> directory_exists: bool {
 	if attribs == INVALID_FILE_ATTRIBUTES return false;
 	
 	return (attribs & FILE_ATTRIBUTE_DIRECTORY) != 0;
-	
-	//err := GetLastError();
-	//if err == INVALID_FILE_ATTRIBUTES return false;
-	return false;
 }
 
 #scope_file
